@@ -1,0 +1,6 @@
+﻿  Fluid_Sim.c
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Fluid_Sim.c(22,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char *(__cdecl *)(void)'
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Fluid_Sim.c(31,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const char *(__cdecl *)(void)'
+LINK : warning LNK4044: unrecognized option '/mwindows'; ignored
+LINK : warning LNK4044: unrecognized option '/Wl,--undefined=WinMain'; ignored
+  Fluid_Sim.vcxproj -> D:\C_Projects\Fluid_Sim\build_vs\Fluid_Sim\Debug\Fluid_Sim.exe
