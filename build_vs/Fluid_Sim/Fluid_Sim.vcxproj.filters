@@ -4,6 +4,12 @@
     <ClCompile Include="D:\C_Projects\Fluid_Sim\Fluid_Sim\Fluid_Sim.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\C_Projects\Fluid_Sim\Fluid_Sim\UI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="D:\C_Projects\Fluid_Sim\Fluid_Sim\CMakeLists.txt" />

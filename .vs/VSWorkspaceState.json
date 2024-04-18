@@ -12,10 +12,8 @@
     ]
   },
   "ExpandedNodes": [
-    "",
-    "\\Fluid_Sim",
-    "\\out"
+    ""
   ],
-  "SelectedNode": "\\Fluid_Sim\\Fluid_Sim.cpp",
+  "SelectedNode": "\\Fluid_Sim.sln",
   "PreviewInSolutionExplorer": false
 }

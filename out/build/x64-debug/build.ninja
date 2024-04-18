@@ -77,8 +77,24 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 
 build cmake_object_order_depends_target_Fluid_Sim: phony || Fluid_Sim\CMakeFiles\Fluid_Sim.dir
 
-build Fluid_Sim\CMakeFiles\Fluid_Sim.dir\Fluid_Sim.cpp.obj: CXX_COMPILER__Fluid_Sim_Debug D$:\C_Projects\Fluid_Sim\Fluid_Sim\Fluid_Sim.cpp || cmake_object_order_depends_target_Fluid_Sim
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
+build Fluid_Sim\CMakeFiles\Fluid_Sim.dir\Fluid_Sim.c.obj: C_COMPILER__Fluid_Sim_Debug D$:\C_Projects\Fluid_Sim\Fluid_Sim\Fluid_Sim.c || cmake_object_order_depends_target_Fluid_Sim
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 -std:c17
+  INCLUDES = -external:IC:\SDL2-2.30.2\x86_64-w64-mingw32\include\SDL2 -external:W0
+  OBJECT_DIR = Fluid_Sim\CMakeFiles\Fluid_Sim.dir
+  OBJECT_FILE_DIR = Fluid_Sim\CMakeFiles\Fluid_Sim.dir
+  TARGET_COMPILE_PDB = Fluid_Sim\CMakeFiles\Fluid_Sim.dir\
+  TARGET_PDB = Fluid_Sim\Fluid_Sim.pdb
+
+build Fluid_Sim\CMakeFiles\Fluid_Sim.dir\Tools.c.obj: C_COMPILER__Fluid_Sim_Debug D$:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c || cmake_object_order_depends_target_Fluid_Sim
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 -std:c17
+  INCLUDES = -external:IC:\SDL2-2.30.2\x86_64-w64-mingw32\include\SDL2 -external:W0
+  OBJECT_DIR = Fluid_Sim\CMakeFiles\Fluid_Sim.dir
+  OBJECT_FILE_DIR = Fluid_Sim\CMakeFiles\Fluid_Sim.dir
+  TARGET_COMPILE_PDB = Fluid_Sim\CMakeFiles\Fluid_Sim.dir\
+  TARGET_PDB = Fluid_Sim\Fluid_Sim.pdb
+
+build Fluid_Sim\CMakeFiles\Fluid_Sim.dir\UI.c.obj: C_COMPILER__Fluid_Sim_Debug D$:\C_Projects\Fluid_Sim\Fluid_Sim\UI.c || cmake_object_order_depends_target_Fluid_Sim
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1 -std:c17
   INCLUDES = -external:IC:\SDL2-2.30.2\x86_64-w64-mingw32\include\SDL2 -external:W0
   OBJECT_DIR = Fluid_Sim\CMakeFiles\Fluid_Sim.dir
   OBJECT_FILE_DIR = Fluid_Sim\CMakeFiles\Fluid_Sim.dir
@@ -93,9 +109,9 @@ build Fluid_Sim\CMakeFiles\Fluid_Sim.dir\Fluid_Sim.cpp.obj: CXX_COMPILER__Fluid_
 #############################################
 # Link the executable Fluid_Sim\Fluid_Sim.exe
 
-build Fluid_Sim\Fluid_Sim.exe: CXX_EXECUTABLE_LINKER__Fluid_Sim_Debug Fluid_Sim\CMakeFiles\Fluid_Sim.dir\Fluid_Sim.cpp.obj | C$:\SDL2-2.30.2\x86_64-w64-mingw32\lib\libSDL2.dll.a C$:\SDL2-2.30.2\x86_64-w64-mingw32\lib\libSDL2main.a
-  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
-  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console  -Wl,--undefined=WinMain
+build Fluid_Sim\Fluid_Sim.exe: C_EXECUTABLE_LINKER__Fluid_Sim_Debug Fluid_Sim\CMakeFiles\Fluid_Sim.dir\Fluid_Sim.c.obj Fluid_Sim\CMakeFiles\Fluid_Sim.dir\Tools.c.obj Fluid_Sim\CMakeFiles\Fluid_Sim.dir\UI.c.obj | C$:\SDL2-2.30.2\x86_64-w64-mingw32\lib\libSDL2.dll.a C$:\SDL2-2.30.2\x86_64-w64-mingw32\lib\libSDL2main.a
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /MDd /Zi /Ob0 /Od /RTC1
+  LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:windows  -Wl,--undefined=WinMain
   LINK_LIBRARIES = C:\SDL2-2.30.2\x86_64-w64-mingw32\lib\libSDL2.dll.a  C:\SDL2-2.30.2\x86_64-w64-mingw32\lib\libSDL2main.a  -mwindows  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   LINK_PATH = -LIBPATH:C:\SDL2-2.30.2\x86_64-w64-mingw32\lib
   OBJECT_DIR = Fluid_Sim\CMakeFiles\Fluid_Sim.dir

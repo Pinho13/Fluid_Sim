@@ -322,6 +322,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="D:\C_Projects\Fluid_Sim\Fluid_Sim\Fluid_Sim.c" />
+    <ClCompile Include="D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c" />
+    <ClCompile Include="D:\C_Projects\Fluid_Sim\Fluid_Sim\UI.c" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\C_Projects\Fluid_Sim\build_vs\ZERO_CHECK.vcxproj">
