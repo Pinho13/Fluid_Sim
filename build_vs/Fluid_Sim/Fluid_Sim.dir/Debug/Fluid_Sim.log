@@ -1,10 +1,27 @@
 ﻿  Fluid_Sim.c
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Fluid_Sim.c(55,13): warning C4244: '=': conversion from 'Uint32' to 'float', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Fluid_Sim.c(62,24): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Fluid_Sim.c(65,4): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Tools.c
-D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(14,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(15,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(43,9): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(62,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(63,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(19,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(20,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(41,54): warning C4028: formal parameter 2 different from declaration
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(43,31): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(43,50): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(59,35): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(60,13): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(61,31): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(61,48): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(66,9): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(79,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(79,49): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(79,78): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(79,93): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(88,20): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(88,49): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(100,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(101,17): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\C_Projects\Fluid_Sim\Fluid_Sim\Tools.c(119,8): warning C4244: 'function': conversion from 'time_t' to 'unsigned int', possible loss of data
   UI.c
   Generating Code...
 LINK : warning LNK4044: unrecognized option '/mwindows'; ignored
